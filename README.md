@@ -27,28 +27,20 @@ Modifica tu archivo package.json para incluir una configuración de Jest que use
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
-  },
-  "dependencies": {
-    "jest": "^29.6.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-jest": "^27.0.0"
   }
 }
 ```
 
-para que funcione el comando de test, añadir lo siguiente:
-
-```json
-"scripts": {
-  "test": "jest"
-}
-```
-
-Para pasar los tests
+## Pasar los tests
 
 ```
 npm run test
+```
+
+## Subir a GitHub
+
+Antes de subir el repositorio, crear un archivo .gitignore y añadir la ruta a node_modules
+
+```
+/node_modules
 ```
