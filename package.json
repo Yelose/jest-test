@@ -1,0 +1,22 @@
+{
+  "name": "tres-en-linea",
+  "version": "1.0.0",
+  "description": "kata de tres en linea",
+  "main": "example.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "author": "Marina González Suárez",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.0"
+  }
+}
